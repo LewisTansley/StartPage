@@ -184,7 +184,7 @@ h2{
   margin: 2em 0em;
 }
 
-@media only screen and (max-width: 1300px){
+@media only screen and (max-aspect-ratio: 4/3){
   .innerContainer {
     height: auto;
   }
