@@ -98,7 +98,7 @@
             html.push(
               ...b.links.map(
                 (l) =>
-                  `<a class="bookmark" href="${l.url}" target="_blank" style="background-image: linear-gradient(90deg, rgba(39,39,39,0.99) 33%, rgba(39,39,39,0.5) 100%), url(${l.img}); background-repeat: no-repeat; background-size: cover; background-position: center;">${l.name}</a>`
+                  `<a class="bookmark" href="${l.url}" target="_blank" style="background-blend-mode: luminosity;background-image: linear-gradient(90deg, rgba(39,39,39,1) 33%, rgba(39,39,39,0.5) 100%), url(${l.img}); background-repeat: no-repeat; background-size: cover; background-position-y:center;">${l.name}</a>`
               )
             );
             html.push("</div></div>");

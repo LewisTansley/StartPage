@@ -6,7 +6,7 @@ const bookmarks = [
       { name: "Inbox", url: "https://inbox.google.com", img: "images/mail.png"},
       { name: "Keep", url: "https://keep.google.com", img: "images/keep.png" },
       { name: "Fast", url: "https://fast.com/", img: "images/fast.png" },
-      { name: "Portfolio", url: "https://lewistansley.github.io/", img: "images/LTLogo_I.png" },
+      { name: "Portfolio", url: "https://lewistansley.github.io/" },
     ],
   },
   {
@@ -18,7 +18,6 @@ const bookmarks = [
         name: "Amazon Prime", 
         url: "https://www.amazon.com/Amazon-Video", 
         img: "images/prime.png"},
-      { name: "Twitch", url: "https://www.twitch.tv/", img: "images/twitch.png" },
     ],
   },
 
@@ -41,10 +40,10 @@ const bookmarks = [
   {
     title: "Linux",
     links: [
-      { name: "Arch Wiki", url: "https://wiki.archlinux.org/", img: "images/arch.png" },
-      { name: "ArcoLinux", url: "https://arcolinux.com/", img: "images/arch.png" },
-      { name: "ProtonDB", url: "https://www.protondb.com/", img: "images/proton.png"},
-      { name: "/r/unixporn", url: "https://reddit.com/r/unixporn", img: "images/reddit.png" },
+      { name: "Arch Wiki", url: "https://wiki.archlinux.org/" },
+      { name: "ArcoLinux", url: "https://arcolinux.com/" },
+      { name: "ProtonDB", url: "https://www.protondb.com/" },
+      { name: "/r/unixporn", url: "https://reddit.com/r/unixporn" },
 
     ],
   },
